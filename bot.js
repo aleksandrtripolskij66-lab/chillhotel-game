@@ -5,7 +5,7 @@ const app = express();
 const TOKEN = process.env.TOKEN;
 const bot = new TelegramBot(TOKEN, {polling: true});
 
-const GAME_URL = 'https://chillhotel-game.aleksandrtripol.repl.co';
+const GAME_URL = 'https://chillhotel-game.onrender.com';
 
 // Простой веб-сервер
 app.get('/', (req, res) => {
